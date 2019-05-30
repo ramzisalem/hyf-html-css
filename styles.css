@@ -1,0 +1,77 @@
+html{
+    width: 950px;
+    align: center;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size:16px;
+}
+
+header{
+    margin:50px 0;
+}
+h1{
+    margin:0px;
+    padding:0;
+}
+ul{
+    margin: 16px 0;
+}
+
+.list-item{
+    color: #f7ad1e;
+
+}
+
+
+ul li {
+    margin: 16px 0;
+
+}
+ul ol li {
+    margin: 10px 0;
+    color:#4e4e4e;
+
+
+}
+h2{
+    margin: 20px 0;
+    color:#6b0f6d;
+
+}
+h3{
+    color:#4e4e4e;
+
+}
+#portfolio{
+    margin-top: 50px;
+}
+#title{
+    margin: 7px 0;
+    color: #f7ad1e;
+}
+#name{
+    letter-spacing: 10.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height:43px;
+    font-size: 48px;
+    color:#6b0f6d;
+    padding-top:15px;
+    
+}
+
+#project{
+    text-align: center;
+}
+#project-title{
+    background: #f7ad1e;
+
+}
+#portfolio{
+    text-align:center;
+}
+
+p{
+    color:#4e4e4e;
+}
