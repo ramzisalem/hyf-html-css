@@ -1,0 +1,160 @@
+
+html{
+    width: 100%;
+    background-color:gray;
+    margin:0 auto;
+    padding:0;
+}
+
+#grid-floats{
+    float:left;
+    list-style:none;
+    margin:0 auto;
+}
+
+Ul#grid-floats{
+    padding-left:0;
+}
+
+Ul#grid-flex{
+    padding-left:0;
+
+}
+.grid-item{
+    float:left;
+    background-color:white;
+    margin:15px;
+    padding:20px;
+    text-align:center;
+    list-style:none;
+    vertical-align: middle;
+    overflow:hidden;
+}
+
+#grid-flex .grid-item{
+    float:none;
+}
+
+
+#grid-flex{
+    list-style:none;
+    display:flex;
+    flex-flow:wrap;
+    float:none;
+
+}
+
+#grid-flex .grid-item img{
+    max-width:50%;
+    height:auto;
+}
+
+img {
+
+    max-width:50%;
+    height:auto;
+}
+
+#grid-floats .grid-item:nth-child(1) img{
+    max-width:25% ;
+
+}
+
+#grid-flex .grid-item:nth-child(1) img{
+    max-width:25% ;
+
+}
+
+@media (min-width: 1281px) {
+    .grid-item {
+        width:20vw;
+        height:320px;
+            }
+    #grid-floats .grid-item:nth-child(1) {
+            width:44vw;
+            }
+            
+    #grid-flex .grid-item:nth-child(1) {
+                width:44vw;
+            }
+                
+    }
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .grid-item {
+        width:20vw;
+        height:320px;
+            }
+    #grid-floats .grid-item:nth-child(1) {
+            width:44vw;
+            }
+            
+    #grid-flex .grid-item:nth-child(1) {
+                width:44vw;
+            }
+                
+    }
+    
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .grid-item {
+        width:24vw;
+        height:320px;
+    }
+    
+    #grid-floats .grid-item:nth-child(1) {
+        width:40vw;
+        }   
+        
+    #grid-floats .grid-item:nth-child(2) {
+            width:40vw;
+            }
+        
+    #grid-flex .grid-item:nth-child(1) {
+            width:40vw;
+            }
+    #grid-flex .grid-item:nth-child(2) {
+            width:40vw;
+                }
+            
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .grid-item {
+        width:24vw;
+        height:320px;
+    }
+    
+    #grid-floats .grid-item:nth-child(1) {
+        width:100vw;
+        }   
+        
+
+        
+    #grid-flex .grid-item:nth-child(1) {
+            width:100vw;
+            }
+
+            
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .grid-item {
+        width:24vw;
+        height:320px;
+    }
+    
+    #grid-floats .grid-item:nth-child(1) {
+        width:100vw;
+        }   
+        
+
+        
+    #grid-flex .grid-item:nth-child(1) {
+            width:100vw;
+            }
+
+            
+}
